@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish": "ng build --prod --base-href https://shabroek.github.io/camera/ && ngh"
+    "publish": "ng build --prod --base-href https://shabroek.github.io/camera/ && ngh --dir=dist/camera"
   },
   "private": true,
   "dependencies": {
